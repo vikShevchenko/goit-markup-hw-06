@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./style.css/modern-normalize.css" />
+  <link rel="stylesheet" href="./style.css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="body">
+  <!--Шапка сайта-->
+  <header class="head">
+    <div class="container">
+      <div class="top-head">
+        <h3 class="logo">
+          <a href="./index.html"><span class="first-logo">Web</span><span class="second-logo">Studio</span></a>
+        </h3>
+
+        <nav>
+          <ul class="menu">
+            <li><a class="menu-link curent" href="./index.html">Студия</a></li>
+            <li class="activ-link">
+              <a class="menu-link, activ" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li><a class="menu-link curent" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <ul class="menu-tel">
+          <li>
+            <a class="menu-link" href="mailto:info@devstudio.com"><svg class="envelope">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>info@devstudio.com</a>
+          </li>
+          <li></li>
+          <li>
+            <a class="menu-number" href="tel:+380961111111"><svg class="smartphone">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!--Портфолио-->
+  <main class="portfolio-main">
+    <section>
+      <div class="container">
+        <ul class="portfolio-menu">
+          <li><button class="portfolio-button" type="button">Все</button></li>
+          <li>
+            <button class="portfolio-button" type="button">Веб-сайт</button>
+          </li>
+          <li>
+            <button class="portfolio-button" type="button">Приложение</button>
+          </li>
+          <li>
+            <button class="portfolio-button" type="button">Дизайн</button>
+          </li>
+          <li>
+            <button class="portfolio-button" type="button">Маркетинг</button>
+          </li>
+        </ul>
+
+        <ul class="portfolio">
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img1.jpg" alt="лептоп" />
+                <div class="drop-window">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                  Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Технокряк</h3>
+                <p>Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img2.jpg" alt="баскетболисты" />
+                <div class="drop-window"></div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Постер New Orlean vs Golden Star</h3>
+                <p>Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img3.jpg" alt="ресторанный лейбл" />
+                <div class="drop-window"></div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Ресторан Seafood</h3>
+                <p>Приложение</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img4.jpg" alt="наушники" />
+                <div class="drop-window"></div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Проект Prime</h3>
+                <p>Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img5.jpg" alt="две коробки" />
+                <div class="drop-window"></div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Проект Boxes</h3>
+                <p>Приложение</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img6.jpg" alt="монитор" />
+                <div class="drop-window"></div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Inspiration has no Borders</h3>
+                <p>Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img7.jpg" alt="буклет" />
+                <div class="drop-window"></div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Издание Limited Edition</h3>
+                <p>Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img8.jpg" alt="лейбл" />
+                <div class="drop-window"></div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Проект LAB</h3>
+                <p>Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-focus" href="#">
+              <div class="drop"><img class="portfolio-foto" src="./images/img9.jpg" alt="ноутбук" />
+                <div class="drop-window"></div>
+              </div>
+              <div class="portfolio-title">
+                <h3>Growing Business</h3>
+                <p>Приложение</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+
+  <footer class="footer">
+    <div class="container align">
+
+      <div>
+        <a class="logo second" href="#"><span class="first-logo">Web</span><span
+            class="second-logo-footer">Studio</span></a>
+
+        <address>
+          <ul class="footer-adress">
+            <li>
+              <a class="footer-adress-str" href="https://goo.gl/maps/uQqDVaKPQXahRZEBA">
+                г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li>
+              <a class="footer-mail" href="maiolto:info@example.com">info@example.com</a>
+            </li>
+            <li>
+              <a class="footer-mail" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <div class="lincs-futer">
+
+
+        <p class="footer-text">Приєднуйтесь</p>
+        <ul class="futer-social">
+          <li><a class="social-size color" href="#" target="_blank" rel="noopener noreferrer">
+              <svg class="size-icon wite">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg></a></li>
+          <li><a class="social-size color" href="#" target="_blank" rel="noopener noreferrer">
+              <svg class="size-icon wite">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg></a></li>
+          <li><a class="social-size color" href="#" target="_blank" rel="noopener noreferrer">
+              <svg class="size-icon wite">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg></a></li>
+          <li><a class="social-size color" href="#" target="_blank" rel="noopener noreferrer">
+              <svg class="size-icon wite">
+                <use href="./images/icons.svg#linkedin2"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer-text">Підпишіться на розсилку</p>
+        <div class="futer-social">
+          <input class="footer-input" type="email" placeholder="E-mail" name="telegram-adres">
+          <button type="submit" class="footer-but"><span>Підписатися</span><svg class="icon-telegram">
+              <use href="./images/icons.svg#telegram"></use>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
