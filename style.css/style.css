@@ -362,7 +362,7 @@ ul {
 
 }
 .modal-title{
-
+box-sizing: border-box;
   margin-left: auto; 
   margin-right: auto; 
   font-weight: 700;
@@ -380,7 +380,7 @@ ul {
 .modal-form{
   display: block;
   padding-top: 14px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .modal-lable{
@@ -485,6 +485,7 @@ textarea:focus {
   height: 120px;
   resize: none;
   padding: 12px 16px;
+  margin-bottom: 20px;
 
   font-weight: 400;
   font-size: 12px;
@@ -511,7 +512,7 @@ textarea:focus {
   display: block;
   margin-left: 14px;
   width: 16px;
-  height: 16px;
+  height: 15px;
   color: #000;
   opacity: 0;
   z-index: 1;
